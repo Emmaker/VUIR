@@ -1,0 +1,39 @@
+[
+  { "op" : "replace", "path": "/memberSize", "value": 28 },
+  
+  { "op" : "replace", "path" : "/paneLayout/backing/position", "value" : [ 0, -108 ] },
+
+  { "op" : "replace", "path" : "/paneLayout/portrait/position", "value" : [ 19, -27 ] },
+
+  { "op" : "replace", "path" : "/paneLayout/overlay/position", "value" : [ 0, -108 ] },
+
+  { "op" : "replace", "path" : "/paneLayout/leader/position", "value" : [ 9, -34 ] },
+
+  { "op" : "replace", "path" : "/paneLayout/name/position", "value" : [ 40, -7 ] },
+
+  { "op": "add", "path": "/paneLayout/inviteButton/position", "value": [ 12, 48 ] },
+
+  { "op" : "replace", "path" : "/paneLayout/healthBar/position", "value" : [ 35, -19 ] },
+  { "op" : "replace", "path" : "/paneLayout/healthBar/size", "value" : [ 97, 6 ] },
+
+  { "op" : "replace", "path" : "/paneLayout/energyBar/position", "value" : [ 35, -25 ] },
+  { "op" : "replace", "path" : "/paneLayout/energyBar/size", "value" : [ 97, 6 ] },
+
+  { "op" : "replace", "path" : "/paneLayout/foodBar/position", "value" : [ 35, -31 ] },
+  { "op" : "replace", "path" : "/paneLayout/foodBar/background", "value" : "/interface/emptybar.png" },
+  { "op" : "replace", "path" : "/paneLayout/foodBar/size", "value" : [ 97, 6 ] },
+
+  { "op" : "replace", "path" : "/paneLayout/list/position", "value" : [ 7, -36 ] },
+
+  { "op" : "replace", "path" : "/entry/portrait/position", "value" : [ 12, 9 ] },
+  
+  { "op" : "replace", "path" : "/entry/leader/position", "value" : [ 2, 1 ] },
+
+  { "op" : "replace", "path" : "/entry/compass/position", "value" : [ 22, 5 ] },
+
+  { "op" : "replace", "path" : "/entry/compassoffworld/position", "value" : [ 17, 0 ] },
+
+  { "op" : "replace", "path" : "/entry/healthBar/position", "value" : [ 28, 18 ] },
+
+  { "op" : "replace", "path" : "/entry/energyBar/position", "value" : [ 28, 12 ] }
+]

@@ -1,0 +1,14 @@
+[
+    { "op" : "replace", "path" : "/mainMenuButtons/0/offset", "value" : [ 0, 110 ] },
+
+    { "op" : "replace", "path" : "/mainMenuButtons/1/offset", "value" : [ 0, 85 ] },
+
+    { "op" : "replace", "path" : "/mainMenuButtons/2/offset", "value" : [ 0, 60 ] },
+
+    { "op" : "replace", "path" : "/mainMenuButtons/3/offset", "value" : [ 0, 10 ] },
+
+    { "op" : "replace", "path" : "/mainMenuButtons/4/offset", "value" : [ 0, 10 ] },
+
+    { "op" : "replace", "path" : "/mainMenuButtons/5/offset", "value" : [ 0, 35 ] },
+    { "op" : "replace", "path" : "/mainMenuButtons/5/rightAnchored", "value" : false }
+]

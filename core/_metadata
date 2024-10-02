@@ -1,0 +1,8 @@
+{
+	"author" : "Emmaker",
+	"description" : "",
+	"friendlyName" : "Vanilla User Interface Remastered",
+	"name" : "vanillaUIremastered",
+	"includes" : [ "QuickbarMini", "StardustLib", "pat_QuickbarClassic" ],
+	"priority" : 9999
+}

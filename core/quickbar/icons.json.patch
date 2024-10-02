@@ -1,0 +1,10 @@
+[
+    [
+        { "op" : "add", "path" : "/items/vuir:collections", "value" : {
+            "label" : "^essential;Collections",
+            "icon" : "/interface/collections.png:base?replace;262626FF=00000000;504F5BFF=00000000;000000FF=00000000?border=1;000000;00000000",
+            "weight" : -1149,
+            "action" : [ "pane", "/interface/scripted/collections/collectionsgui.config" ]
+        } }
+    ]
+]

@@ -1,0 +1,39 @@
+[
+    [
+        { "op" : "replace", "path" : "/statusIconPos", "value" : [ 72, 50 ] },
+
+        { "op" : "replace", "path" : "/mainBar/size", "value" : [ 25, 195 ] },
+
+        { "op" : "replace", "path" : "/mainBar/questLog/pos", "value" : [ 0, 170 ] },
+        { "op" : "replace", "path" : "/mainBar/questLog/poly", "value" : [ [ 0, 170 ], [ 0, 187 ], [ 17, 187 ], [ 17, 170 ] ] },
+
+        { "op" : "replace", "path" : "/mainBar/inventory/pos", "value" : [ 0, 144 ] },
+        { "op" : "replace", "path" : "/mainBar/inventory/poly", "value" : [ [ 0, 144 ], [ 0, 161 ], [ 17, 161 ], [ 17, 144 ] ] },
+
+        { "op" : "replace", "path" : "/mainBar/craft/pos", "value" : [ 0, 118 ] },
+        { "op" : "replace", "path" : "/mainBar/craft/poly", "value" : [ [ 0, 118 ], [ 0, 135 ], [ 17, 135 ], [ 17, 118 ] ] },
+
+        { "op" : "replace", "path" : "/mainBar/codex/pos", "value" : [ 0, 92 ] },
+        { "op" : "replace", "path" : "/mainBar/codex/poly", "value" : [ [ 0, 92 ], [ 0, 109 ], [ 17, 109 ], [ 17, 92 ] ] },
+
+        { "op" : "replace", "path" : "/mainBar/collections/base", "value" : "/interface/mainbar.png" },
+        { "op" : "replace", "path" : "/mainBar/collections/open", "value" : "/interface/mainbar.png" },
+        { "op" : "replace", "path" : "/mainBar/collections/pos", "value" : [ 12, 26 ] },
+        { "op" : "replace", "path" : "/mainBar/collections/poly", "value" : [ [ 0, 0 ], [ 0, 0 ], [ 0, 0 ], [ 0, 0 ] ] },
+
+        { "op" : "replace", "path" : "/mainBar/mmUpgrade/pos", "value" : [ 0, 66 ] },
+        { "op" : "replace", "path" : "/mainBar/mmUpgrade/poly", "value" : [ [ [ 0, 66 ], [ 0, 83 ], [ 17, 83 ], [ 17, 66 ] ] ] },
+
+        { "op" : "replace", "path" : "/mainBar/deploy/pos", "value" : [ 0, 40 ] },
+        { "op" : "replace", "path" : "/mainBar/deploy/poly", "value" : [ [ 0, 40 ], [ 0, 57 ], [ 17, 57 ], [ 17, 40 ] ] },
+
+        { "op" : "replace", "path" : "/mainBar/beam/pos", "value" : [ 0, 14 ] },
+        { "op" : "replace", "path" : "/mainBar/beam/poly", "value" : [ [ 0, 14 ], [ 0, 31 ], [ 17, 31 ], [ 17, 14 ] ] }
+    ],
+    [
+        { "op" : "test", "path" : "/cursorTooltip/mmUpgradeText", "value" : "Quickbar" },
+
+        { "op" : "replace", "path" : "/mainBar/mmUpgrade/pos", "value" : [ -2, 66 ] },
+        { "op" : "replace", "path" : "/mainBar/mmUpgrade/poly", "value" : [ [ -2, 66 ], [ -2, 83 ], [ 17, 83 ], [ 17, 66 ] ] }
+    ]
+]

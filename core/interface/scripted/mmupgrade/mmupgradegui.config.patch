@@ -1,0 +1,8 @@
+[
+    [
+        { "op" : "test", "path" : "/replaced" },
+        { "op" : "test", "path" : "/config", "inverse" : true },
+
+        { "op" : "replace", "path" : "/gui/panefeature/offset", "value" : [ -27, -47 ] }
+    ]
+]

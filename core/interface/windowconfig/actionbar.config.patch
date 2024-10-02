@@ -1,0 +1,96 @@
+[
+    { "op" : "replace", "path" : "/paneLayout/panefeature/anchor", "value" : "TopLeft" },
+    { "op" : "add", "path" : "/paneLayout/panefeature/offset", "value" : [ 140, 0 ] },
+
+    { "op" : "replace", "path" : "/paneLayout/customBar1L/position", "value" : [ 19, 6 ] },
+    { "op" : "replace", "path" : "/paneLayout/customBar1LOverlay/position", "value" : [ 19, 6 ] },
+    { "op" : "replace", "path" : "/paneLayout/customBar1R/position", "value" : [ 36, 6 ] },
+    { "op" : "replace", "path" : "/paneLayout/customBar1ROverlay/position", "value" : [ 36, 6 ] },
+
+    { "op" : "add", "path" : "/paneLayout/customBar1Label", "value" : {
+        "zlevel" : 4,
+        "type" : "label",
+        "fontSize" : 6,
+        "value" : "1",
+        "vAnchor" : "mid",
+        "position" : [35, 26]
+    } },
+
+    { "op" : "replace", "path" : "/paneLayout/customBar2L/position", "value" : [ 62, 6 ] },
+    { "op" : "replace", "path" : "/paneLayout/customBar2LOverlay/position", "value" : [ 62, 6 ] },
+    { "op" : "replace", "path" : "/paneLayout/customBar2R/position", "value" : [ 79, 6 ] },
+    { "op" : "replace", "path" : "/paneLayout/customBar2ROverlay/position", "value" : [ 79, 6 ] },
+
+    { "op" : "add", "path" : "/paneLayout/customBar2Label", "value" : {
+        "zlevel" : 4,
+        "type" : "label",
+        "fontSize" : 6,
+        "value" : "2",
+        "vAnchor" : "mid",
+        "position" : [78, 26]
+    } },
+
+    { "op" : "replace", "path" : "/paneLayout/customBar3L/position", "value" : [ 105, 6 ] },
+    { "op" : "replace", "path" : "/paneLayout/customBar3LOverlay/position", "value" : [ 105, 6 ] },
+    { "op" : "replace", "path" : "/paneLayout/customBar3R/position", "value" : [ 122, 6 ] },
+    { "op" : "replace", "path" : "/paneLayout/customBar3ROverlay/position", "value" : [ 122, 6 ] },
+
+    { "op" : "add", "path" : "/paneLayout/customBar3Label", "value" : {
+        "zlevel" : 4,
+        "type" : "label",
+        "fontSize" : 6,
+        "value" : "3",
+        "vAnchor" : "mid",
+        "position" : [121, 26]
+    } },
+
+    { "op" : "replace", "path" : "/paneLayout/customBar4L/position", "value" : [ 148, 6 ] },
+    { "op" : "replace", "path" : "/paneLayout/customBar4LOverlay/position", "value" : [ 148, 6 ] },
+    { "op" : "replace", "path" : "/paneLayout/customBar4R/position", "value" : [ 165, 6 ] },
+    { "op" : "replace", "path" : "/paneLayout/customBar4ROverlay/position", "value" : [ 165, 6 ] },
+
+    { "op" : "add", "path" : "/paneLayout/customBar4Label", "value" : {
+        "zlevel" : 4,
+        "type" : "label",
+        "fontSize" : 6,
+        "value" : "4",
+        "vAnchor" : "mid",
+        "position" : [164, 26]
+    } },
+
+    { "op" : "replace", "path" : "/paneLayout/customBar5L/position", "value" : [ 191, 6 ] },
+    { "op" : "replace", "path" : "/paneLayout/customBar5LOverlay/position", "value" : [ 191, 6 ] },
+    { "op" : "replace", "path" : "/paneLayout/customBar5R/position", "value" : [ 208, 6 ] },
+    { "op" : "replace", "path" : "/paneLayout/customBar5ROverlay/position", "value" : [ 208, 6 ] },
+
+    { "op" : "add", "path" : "/paneLayout/customBar5Label", "value" : {
+        "zlevel" : 4,
+        "type" : "label",
+        "fontSize" : 6,
+        "value" : "5",
+        "vAnchor" : "mid",
+        "position" : [207, 26]
+    } },
+
+    { "op" : "replace", "path" : "/paneLayout/customBar6L/position", "value" : [ 234, 6 ] },
+    { "op" : "replace", "path" : "/paneLayout/customBar6LOverlay/position", "value" : [ 234, 6 ] },
+    { "op" : "replace", "path" : "/paneLayout/customBar6R/position", "value" : [ 251, 6 ] },
+    { "op" : "replace", "path" : "/paneLayout/customBar6ROverlay/position", "value" : [ 251, 6 ] },
+
+    { "op" : "add", "path" : "/paneLayout/customBar6Label", "value" : {
+        "zlevel" : 4,
+        "type" : "label",
+        "fontSize" : 6,
+        "value" : "6",
+        "vAnchor" : "mid",
+        "position" : [250, 26]
+    } },
+
+    { "op" : "replace", "path" : "/paneLayout/essentialBar1/position", "value" : [ 278, 7 ] },
+    { "op" : "replace", "path" : "/paneLayout/essentialBar2/position", "value" : [ 297, 7 ] },
+    { "op" : "replace", "path" : "/paneLayout/essentialBar3/position", "value" : [ 316, 7 ] },
+    { "op" : "replace", "path" : "/paneLayout/essentialBar4/position", "value" : [ 335, 7 ] },
+
+    { "op" : "replace", "path" : "/paneLayout/pickupToActionBar/position", "value" : [1, 17] },
+    { "op" : "replace", "path" : "/paneLayout/swapCustomBar/position", "value" : [10, 21] }
+]

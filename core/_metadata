@@ -4,12 +4,14 @@
 	"friendlyName" : "Vanilla User Interface Remastered",
 	"name" : "vanillaUIremastered",
 	"includes" : [
+		// Assets
+		"base",
+		"opensb_base",
 		// Quickbar
 		"QuickbarMini",
 		"StardustLib",
 		"pat_QuickbarClassic",
 		// Teambar
 		"Elithian_Races_Mod"
-	],
-	"priority" : -9999
+	]
 }

@@ -1,7 +1,11 @@
 {
-	"author" : "Emmaker",
-	"description" : "",
-	"friendlyName" : "VUIR - Inventory Addon",
-	"name" : "VUIRinventory",
-	"includes" : [ "vanillaUIremastered" ]
+  "author" : "Emmaker",
+  "description" : "An addon for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3341486314]Vanilla User Interface Remastered[/url] that overhauls the inventory to look like what is in the screenshot; a near perfect port from my original Vanilla User Interface Enhanced. This can be used alongside or independently of VUIR.",
+  "friendlyName" : "VUIR - Inventory Addon",
+  "includes" : ["vanillaUIremastered"],
+  "link" : "steam://url/CommunityFilePage/3341487845",
+  "name" : "VUIRinventory",
+  "steamContentId" : "3341487845",
+  "tags" : "User Interface",
+  "version" : "6.9"
 }

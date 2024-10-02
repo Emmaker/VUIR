@@ -1,17 +1,11 @@
 {
-	"author" : "Emmaker",
-	"description" : "",
-	"friendlyName" : "Vanilla User Interface Remastered",
-	"name" : "vanillaUIremastered",
-	"includes" : [
-		// Assets
-		"base",
-		"opensb_base",
-		// Quickbar
-		"QuickbarMini",
-		"StardustLib",
-		"pat_QuickbarClassic",
-		// Teambar
-		"Elithian_Races_Mod"
-	]
+  "author" : "Emmaker",
+  "description" : "With the excellent [url=https://steamcommunity.com/sharedfiles/filedetails/?id=731683297]Enhanced Party Interface[/url] as a base, combined with my personal vision of how the vanilla interface should look, [b]Vanilla User Interface Remastered[/b] is a massive overhaul of Starbound's user interface and successor to my original Vanilla User Interface Enhanced project. Boasting the sleekest, most original, and closest to vanilla interface of any mod, VUIR will quickly become your favorite UI mod ever, or your money back guaranteed (the mod doesn't cost money lol).\n\n[h1]Party Interface[/h1]\nThe party interface has been completely transformed, built upon the great work of Renamon. Not only does it have the excellent design of EPI, and the consistent spacing, it also has completely transformed stat bars, with all three bars of same width, size, and equity on your screen. Your hunger bar will no longer stick out like a sore thumb.\n\n[h1]Action Bar[/h1]\nAddressing issues presented by the positioning (and lack of UI scaling) of the vanilla game, the action bar has been aligned to the left, next to your party interface. Spacing has been tweaked for consistency, and numbers have been added so you can see at a glance which slot is where.\n\n[h1]Main Bar[/h1]\nThe main bar (yes, it's called that) has been completely transformed from what it once was. Spacing has been made consistent with the rest of the UI, and has been repositioned inside a fancy widget of personal design. Unfortunately, the Collections icon had to be sacrificed to make this change, but has been added to any Quickbar of your choice, if you have one designed. Additionally, the positioning and design of the new main bar has been made with care put towards guaranteed compatibility with the following Quickbar mods: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1088459034]Quickbar Mini[/url], [url=https://steamcommunity.com/sharedfiles/filedetails/?id=764887546]Stardust Core[/url], [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2512589532]Stardust Core Lite[/url], and [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2957136802]Classic Quickbar[/url] (my personal recommendation!)\n\n[h1]Compatibility[/h1]\nAs with any mod ever, there will be incompatibilities with Vanilla User Interface Remastered. Here is a list of all the mods I can't guarantee will work with VUIR:\n\n- Any other mod which changes the party interface, action bar, or main bar. Examples that fit under this umbrella include the original Enhanced Party Interface, Detailed Side Bar, and Better Action Bar & Icons.\n- Unsupported Quickbar mods. Only one comes to mind, which is my old Community Framework one. I've given up hope for that mod, so just don't use it anymore.\n\n[h1]Contributions[/h1]\nThis is mostly a personal project that I don't expect any help on, but if some otherworldly force compels you to contribute, I shall redirect you to my [url=https://github.com/Emmaker/VUIR]GitHub[/url].",
+  "friendlyName" : "Vanilla User Interface Remastered",
+  "includes" : ["base", "opensb_base", "QuickbarMini", "StardustLib", "pat_QuickbarClassic", "Elithian_Races_Mod"],
+  "link" : "steam://url/CommunityFilePage/3341486314",
+  "name" : "vanillaUIremastered",
+  "steamContentId" : "3341486314",
+  "tags" : "User Interface",
+  "version" : "6.9"
 }

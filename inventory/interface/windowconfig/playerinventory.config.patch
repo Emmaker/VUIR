@@ -1,0 +1,192 @@
+[
+    { "op" : "replace", "path" : "/bagConfig/materialBag/order", "value" : 5 },
+    { "op" : "replace", "path" : "/bagConfig/objectBag/order", "value" : 6 },
+    { "op" : "replace", "path" : "/bagConfig/foodBag/order", "value" : 7 },
+    { "op" : "add", "path" : "/bagConfig/weaponBag", "value" : {
+            "order" : 2,
+            "tabButtonData" : "showWeaponGrid",
+            "itemGrid" : "weaponItemGrid",
+            "newItemMarker" : "newWeaponItems"
+        }
+    },
+    { "op" : "add", "path" : "/bagConfig/armorBag", "value" : {
+            "order" : 3,
+            "tabButtonData" : "showArmorGrid",
+            "itemGrid" : "armorItemGrid",
+            "newItemMarker" : "newArmorItems"
+        }
+    },
+    { "op" : "add", "path" : "/bagConfig/vehicleBag", "value" : {
+            "order" : 8,
+            "tabButtonData" : "showVehicleGrid",
+            "itemGrid" : "vehicleItemGrid",
+            "newItemMarker" : "newVehicleItems"
+        }
+    },
+    { "op" : "add", "path" : "/bagConfig/codexBag", "value" : {
+            "order" : 3,
+            "tabButtonData" : "showCodexGrid",
+            "itemGrid" : "codexItemGrid",
+            "newItemMarker" : "newCodexItems"
+        }
+    },
+
+    
+    { "op" : "replace", "path" : "/paneLayout/close/position", "value" : [ 287, 223 ] },
+
+    { "op" : "replace", "path" : "/paneLayout/sort/position", "value" : [ 284, 9 ] },
+
+    { "op" : "remove", "path" : "/paneLayout/bgShine" },
+
+    { "op" : "replace", "path" : "/paneLayout/newTileItems/position", "value" : [ 138, 112 ] },
+    { "op" : "replace", "path" : "/paneLayout/newObjectItems/position", "value" : [ 165, 112 ] },
+    { "op" : "replace", "path" : "/paneLayout/newFoodItems/position", "value" : [ 192, 112 ] },
+    { "op" : "add", "path" : "/paneLayout/newWeaponItems", "value" : {
+            "type" : "image",
+            "file" : "/interface/inventory/dot.png",
+            "position" : [57, 112]
+        }
+    },
+    { "op" : "add", "path" : "/paneLayout/newArmorItems", "value" : {
+            "type" : "image",
+            "file" : "/interface/inventory/dot.png",
+            "position" : [84, 112]
+        }
+    },
+    { "op" : "add", "path" : "/paneLayout/newVehicleItems", "value" : {
+            "type" : "image",
+            "file" : "/interface/inventory/dot.png",
+            "position" : [219, 112]
+        }
+    },
+    { "op" : "add", "path" : "/paneLayout/newCodexItems", "value" : {
+            "type" : "image",
+            "file" : "/interface/inventory/dot.png",
+            "position" : [246, 112]
+        }
+    },
+
+    { "op" : "replace", "path" : "/paneLayout/gridModeSelector/buttons/1/position", "value" : [ 112, 2 ] },
+    { "op" : "replace", "path" : "/paneLayout/gridModeSelector/buttons/2/position", "value" : [ 139, 2 ] },
+    { "op" : "replace", "path" : "/paneLayout/gridModeSelector/buttons/4/position", "value" : [ 166, 2 ] },
+    { "op" : "add", "path" : "/paneLayout/gridModeSelector/buttons/-", "value" : {
+            "baseImage" : "/interface/inventory/bigweap.png:base",
+            "baseImageChecked" : "/interface/inventory/bigweap.png:baseChecked",
+            "pressedImage" : "/interface/inventory/bigweap.png:pressed",
+            "pressedImageChecked" : "/interface/inventory/bigweap.png:pressedChecked",
+            "position" : [31, 2],
+            "data" : "showWeaponGrid",
+            "pressedOffset" : [0,0]
+        }
+    },
+    { "op" : "add", "path" : "/paneLayout/gridModeSelector/buttons/-", "value" : {
+            "baseImage" : "/interface/inventory/bigarmor.png:base",
+            "baseImageChecked" : "/interface/inventory/bigarmor.png:baseChecked",
+            "pressedImage" : "/interface/inventory/bigarmor.png:pressed",
+            "pressedImageChecked" : "/interface/inventory/bigarmor.png:pressedChecked",
+            "position" : [58, 2],
+            "data" : "showArmorGrid",
+            "pressedOffset" : [0,0]
+        }
+    },
+    { "op" : "add", "path" : "/paneLayout/gridModeSelector/buttons/-", "value" : {
+            "baseImage" : "/interface/inventory/bigvehicle.png:base",
+            "baseImageChecked" : "/interface/inventory/bigvehicle.png:baseChecked",
+            "pressedImage" : "/interface/inventory/bigvehicle.png:pressed",
+            "pressedImageChecked" : "/interface/inventory/bigvehicle.png:pressedChecked",
+            "position" : [193, 2],
+            "data" : "showVehicleGrid",
+            "pressedOffset" : [0,0]
+        }
+    },
+    { "op" : "add", "path" : "/paneLayout/gridModeSelector/buttons/-", "value" : {
+            "baseImage" : "/interface/inventory/bigcodex.png:base",
+            "baseImageChecked" : "/interface/inventory/bigcodex.png:baseChecked",
+            "pressedImage" : "/interface/inventory/bigcodex.png:pressed",
+            "pressedImageChecked" : "/interface/inventory/bigcodex.png:pressedChecked",
+            "position" : [220, 2],
+            "data" : "showCodexGrid",
+            "pressedOffset" : [0,0]
+        }
+    },
+
+    { "op" : "replace", "path" : "/paneLayout/portrait/position", "value" : [ 57.5, 175.5 ] },
+
+    { "op" : "replace", "path" : "/paneLayout/mainItemGrid/position", "value": [9, 29] },
+    { "op" : "replace", "path" : "/paneLayout/mainItemGrid/dimensions", "value" : [ 15, 4 ] },
+    { "op" : "replace", "path" : "/paneLayout/tileItemGrid/position", "value": [9, 29] },
+    { "op" : "replace", "path" : "/paneLayout/tileItemGrid/dimensions", "value" : [ 15, 4 ] },
+    { "op" : "replace", "path" : "/paneLayout/objectItemGrid/position", "value": [9, 29] },
+    { "op" : "replace", "path" : "/paneLayout/objectItemGrid/dimensions", "value" : [ 15, 4 ] },
+    { "op" : "replace", "path" : "/paneLayout/reagentItemGrid/position", "value": [9, 29] },
+    { "op" : "replace", "path" : "/paneLayout/reagentItemGrid/dimensions", "value" : [ 15, 4 ] },
+    { "op" : "replace", "path" : "/paneLayout/foodItemGrid/position", "value": [9, 29] },
+    { "op" : "replace", "path" : "/paneLayout/foodItemGrid/dimensions", "value" : [ 15, 4 ] },
+    { "op" : "add", "path" : "/paneLayout/weaponItemGrid", "value" : {
+            "type" : "itemgrid",
+            "position" : [9, 29],
+            "dimensions" : [15, 4],
+            "spacing" : [19, 19],
+            "backingImage" : "/interface/inventory/empty.png"
+        }
+    },
+    { "op" : "add", "path" : "/paneLayout/armorItemGrid", "value" : {
+            "type" : "itemgrid",
+            "position" : [9, 29],
+            "dimensions" : [15, 4],
+            "spacing" : [19, 19],
+            "backingImage" : "/interface/inventory/empty.png"
+        }
+    },
+    { "op" : "add", "path" : "/paneLayout/vehicleItemGrid", "value" : {
+            "type" : "itemgrid",
+            "position" : [9, 29],
+            "dimensions" : [15, 4],
+            "spacing" : [19, 19],
+            "backingImage" : "/interface/inventory/empty.png"
+        }
+    },
+    { "op" : "add", "path" : "/paneLayout/codexItemGrid", "value" : {
+            "type" : "itemgrid",
+            "position" : [9, 29],
+            "dimensions" : [15, 4],
+            "spacing" : [19, 19],
+            "backingImage" : "/interface/inventory/empty.png"
+        }
+    },
+
+    { "op" : "replace", "path" : "/paneLayout/head/position", "value" : [ 90, 184 ] },
+    { "op" : "replace", "path" : "/paneLayout/chest/position", "value" : [ 90, 164 ] },
+    { "op" : "replace", "path" : "/paneLayout/legs/position", "value" : [ 90, 144 ] },
+    { "op" : "replace", "path" : "/paneLayout/back/position", "value" : [ 5, 174 ] },
+
+    { "op" : "replace", "path" : "/paneLayout/headCosmetic/position", "value" : [ 110, 184 ] },
+    { "op" : "replace", "path" : "/paneLayout/chestCosmetic/position", "value" : [ 110, 164 ] },
+    { "op" : "replace", "path" : "/paneLayout/legsCosmetic/position", "value" : [ 110, 144 ] },
+    { "op" : "replace", "path" : "/paneLayout/backCosmetic/position", "value" : [ 5, 154 ] },
+
+    { "op" : "replace", "path" : "/paneLayout/techHead/position", "value" : [ 222, 191 ] },
+    { "op" : "replace", "path" : "/paneLayout/techHeadDisabled/position", "value" : [ 213, 183 ] },
+    { "op" : "replace", "path" : "/paneLayout/techBody/position", "value" : [ 252, 191 ] },
+    { "op" : "replace", "path" : "/paneLayout/techBodyDisabled/position", "value" : [ 243, 183 ] },
+    { "op" : "replace", "path" : "/paneLayout/techLegs/position", "value" : [ 282, 191 ] },
+    { "op" : "replace", "path" : "/paneLayout/techLegsDisabled/position", "value" : [ 273, 183 ] },
+
+    { "op" : "replace", "path" : "/paneLayout/companionSlot/position", "value" : [ 219, 153 ] },
+    { "op" : "replace", "path" : "/paneLayout/companionHealthBar/position", "value" : [ 256, 142 ] },
+    { "op" : "replace", "path" : "/paneLayout/companionAttackStat/position", "value" : [ 277, 159 ] },
+    { "op" : "replace", "path" : "/paneLayout/companionDefenseStat/position", "value" : [ 277, 150 ] },
+
+    { "op" : "replace", "path" : "/paneLayout/healthtext/position", "value" : [ 158, 196 ] },
+    { "op" : "replace", "path" : "/paneLayout/energytext/position", "value" : [ 158, 178 ] },
+    { "op" : "replace", "path" : "/paneLayout/defensetext/position", "value" : [ 158, 162 ] },
+    { "op" : "replace", "path" : "/paneLayout/weapontext/position", "value" : [ 158, 144 ] },
+
+    { "op" : "replace", "path" : "/paneLayout/trash/position", "value" : [ 274, 110 ] },
+
+    { "op" : "replace", "path" : "/paneLayout/labelappearance/position", "value" : [ 57, 207 ] },
+    { "op" : "replace", "path" : "/paneLayout/labelstats/position", "value" : [ 166, 207 ] },
+    { "op" : "replace", "path" : "/paneLayout/companionName/position", "value" : [ 252, 168 ] },
+    { "op" : "replace", "path" : "/paneLayout/labeltech/position", "value" : [ 252, 207 ] },
+    { "op" : "replace", "path" : "/paneLayout/labelinventory/position", "value" : [ 101, 131 ] }
+]

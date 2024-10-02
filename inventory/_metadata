@@ -1,0 +1,7 @@
+{
+	"author" : "Emmaker",
+	"description" : "",
+	"friendlyName" : "VUIR - Inventory Addon",
+	"name" : "VUIRinventory",
+	"includes" : [ "vanillaUIremastered" ]
+}

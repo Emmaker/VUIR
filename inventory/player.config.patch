@@ -1,0 +1,63 @@
+[
+    { "op" : "replace", "path" : "/inventory/itemBags/mainBag/size", "value" : 60 },
+
+    { "op" : "replace", "path" : "/inventory/itemBags/materialBag/priority", "value" : 5 },
+    { "op" : "replace", "path" : "/inventory/itemBags/materialBag/size", "value" : 60 },
+
+    { "op" : "replace", "path" : "/inventory/itemBags/objectBag/priority", "value" : 6 },
+    { "op" : "replace", "path" : "/inventory/itemBags/objectBag/size", "value" : 60 },
+
+    { "op" : "replace", "path" : "/inventory/itemBags/reagentBag/size", "value" : 60 },
+
+    { "op" : "replace", "path" : "/inventory/itemBags/foodBag/priority", "value" : 7 },
+    { "op" : "replace", "path" : "/inventory/itemBags/foodBag/size", "value" : 60 },
+
+    { "op" : "add", "path" : "/inventory/itemBags/weaponBag", "value" : {
+            "priority" : 2,
+            "size" : 60
+        }
+    },
+    { "op" : "add", "path" : "/inventory/itemBags/armorBag", "value" : {
+            "priority" : 3,
+            "size" : 60
+        }
+    },
+    { "op" : "add", "path" : "/inventory/itemBags/vehicleBag", "value" : {
+            "priority" : 8,
+            "size" : 60
+        }
+    },
+    { "op" : "add", "path" : "/inventory/itemBags/codexBag", "value" : {
+            "priority" : 9,
+            "size" : 60
+        }
+    },
+
+    { "op" : "add", "path" : "/inventoryFilters/mainBag/typeBlacklist/-", "value" : "codex" },
+    { "op" : "add", "path" : "/inventoryFilters/mainBag/typeBlacklist/-", "value" : "headarmor" },
+    { "op" : "add", "path" : "/inventoryFilters/mainBag/typeBlacklist/-", "value" : "chestarmor" },
+    { "op" : "add", "path" : "/inventoryFilters/mainBag/typeBlacklist/-", "value" : "legsarmor" },
+    { "op" : "add", "path" : "/inventoryFilters/mainBag/typeBlacklist/-", "value" : "backarmor" },
+
+    { "op" : "add", "path" : "/inventoryFilters/mainBag/tagBlacklist/-", "value" : "weapon" },
+
+    { "op" : "add", "path" : "/inventoryFilters/mainBag/categoryBlacklist/-", "value" : "mechPart" },
+    { "op" : "add", "path" : "/inventoryFilters/mainBag/categoryBlacklist/-", "value" : "vehicleController" },
+
+    { "op" : "add", "path" : "/inventoryFilters/weaponBag", "value" : {
+            "tagWhitelist" : [ "weapon" ]
+        }
+    },
+    { "op" : "add", "path" : "/inventoryFilters/armorBag", "value" : {
+            "typeWhitelist" : [ "headarmor", "chestarmor", "legsarmor", "backarmor" ]
+        }
+    },
+    { "op" : "add", "path" : "/inventoryFilters/vehicleBag", "value" : {
+            "categoryWhitelist" : [ "mechPart", "vehicleController" ]
+        }
+    },
+    { "op" : "add", "path" : "/inventoryFilters/codexBag", "value" : {
+            "typeWhitelist" : [ "codex" ]
+        }
+    }
+]

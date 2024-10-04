@@ -21,8 +21,8 @@
         { "op" : "replace", "path" : "/paneLayout/imgCraftBg/position", "value" : [ 223, 77 ] },
         { "op" : "replace", "path" : "/paneLayout/currentRecipeIcon/position", "value" : [ 224, 78 ] },
 
-        { "op" : "replace", "path" : "/paneLayout/btnFilterHaveMaterials/position", "value" : [ 37, 59 ] },
-        { "op" : "replace", "path" : "/paneLayout/lblProduct/position", "value" : [ 48, 59 ] },
+        { "op" : "replace", "path" : "/paneLayout/btnFilterHaveMaterials/position", "value" : [ 38, 59 ] },
+        { "op" : "replace", "path" : "/paneLayout/lblProduct/position", "value" : [ 49  , 59 ] },
 
         { "op" : "replace", "path" : "/paneLayout/scrollArea/rect", "value" : [ 32, 68, 201, 304 ] },
 
@@ -32,7 +32,7 @@
 
         { "op" : "replace", "path" : "/paneLayout/rarities/buttons", "value" : [
                 {
-                    "position" : [ 162, 70 ],
+                    "position" : [ 164, 60 ],
                     "baseImage" : "/interface/crafting/sortcommon.png",
                     "baseImageChecked" : "/interface/crafting/sortcommonselected.png",
                     "data" : {
@@ -40,7 +40,7 @@
                     }
                 },
                 {
-                    "position" : [ 168, 70 ],
+                    "position" : [ 170, 60 ],
                     "baseImage" : "/interface/crafting/sortuncommon.png",
                     "baseImageChecked" : "/interface/crafting/sortuncommonselected.png",
                     "data" : {
@@ -48,7 +48,7 @@
                     }
                 },
                 {
-                    "position" : [ 174, 70 ],
+                    "position" : [ 176, 60 ],
                     "baseImage" : "/interface/crafting/sortrare.png",
                     "baseImageChecked" : "/interface/crafting/sortrareselected.png",
                     "data" : {
@@ -56,7 +56,7 @@
                     }
                 },
                 {
-                    "position" : [ 180, 70 ],
+                    "position" : [ 182, 60 ],
                     "baseImage" : "/interface/crafting/sortlegendary.png",
                     "baseImageChecked" : "/interface/crafting/sortlegendaryselected.png",
                     "data" : {
@@ -64,7 +64,7 @@
                     }
                 },
                 {
-                    "position" : [ 186, 70 ],
+                    "position" : [ 188, 60 ],
                     "baseImage" : "/interface/crafting/sortessential.png",
                     "baseImageChecked" : "/interface/crafting/sortessentialselected.png",
                     "data" : {

@@ -1,0 +1,105 @@
+[
+    [
+        { "op" : "replace", "path" : "/paneLayout/background/fileHeader", "value" : "/interface/crafting/vuircraftingheader.png" },
+        { "op" : "replace", "path" : "/paneLayout/background/fileBody", "value" : "/interface/crafting/vuircraftingbody.png" },
+        { "op" : "replace", "path" : "/paneLayout/background/fileFooter", "value" : "/interface/crafting/vuircraftingfooter.png" },
+
+        { "op" : "replace", "path" : "/paneLayout/close/position", "value" : [ 348, 335 ] },
+
+        { "op" : "remove", "path" : "/paneLayout/bgShine" },
+
+        { "op" : "replace", "path" : "/paneLayout/btnUpgrade/position", "value" : [ 166, 332 ] },
+
+        { "op" : "replace", "path" : "/paneLayout/lblSchematics/position", "value" : [ 115, 318 ] },
+        { "op" : "replace", "path" : "/paneLayout/lblProducttitle/position", "value" : [ 292, 318 ] },
+
+        { "op" : "replace", "path" : "/paneLayout/spinCount/position", "value" : [ 247, 83 ] },
+        { "op" : "replace", "path" : "/paneLayout/tbSpinCount/position", "value" : [ 259, 83 ] },
+        { "op" : "replace", "path" : "/paneLayout/imgAmountInput/position", "value" : [ 253, 82 ] },
+        { "op" : "replace", "path" : "/paneLayout/btnCraft/position", "value" : [ 298, 80 ] },
+        { "op" : "replace", "path" : "/paneLayout/btnStopCraft/position", "value" : [ 298, 80 ] },
+        { "op" : "replace", "path" : "/paneLayout/imgCraftBg/position", "value" : [ 223, 77 ] },
+        { "op" : "replace", "path" : "/paneLayout/currentRecipeIcon/position", "value" : [ 224, 78 ] },
+
+        { "op" : "replace", "path" : "/paneLayout/btnFilterHaveMaterials/position", "value" : [ 37, 59 ] },
+        { "op" : "replace", "path" : "/paneLayout/lblProduct/position", "value" : [ 48, 59 ] },
+
+        { "op" : "replace", "path" : "/paneLayout/scrollArea/rect", "value" : [ 32, 68, 201, 304 ] },
+
+        { "op" : "replace", "path" : "/paneLayout/description/position", "value" : [ 217, 79 ] },
+
+        { "op" : "replace", "path" : "/paneLayout/filter/position", "value" : [ 83, 43 ] },
+
+        { "op" : "replace", "path" : "/paneLayout/rarities/buttons", "value" : [
+                {
+                    "position" : [ 162, 70 ],
+                    "baseImage" : "/interface/crafting/sortcommon.png",
+                    "baseImageChecked" : "/interface/crafting/sortcommonselected.png",
+                    "data" : {
+                        "rarity" : [ "common" ]
+                    }
+                },
+                {
+                    "position" : [ 168, 70 ],
+                    "baseImage" : "/interface/crafting/sortuncommon.png",
+                    "baseImageChecked" : "/interface/crafting/sortuncommonselected.png",
+                    "data" : {
+                        "rarity" : [ "uncommon" ]
+                    }
+                },
+                {
+                    "position" : [ 174, 70 ],
+                    "baseImage" : "/interface/crafting/sortrare.png",
+                    "baseImageChecked" : "/interface/crafting/sortrareselected.png",
+                    "data" : {
+                        "rarity" : [ "rare" ]
+                    }
+                },
+                {
+                    "position" : [ 180, 70 ],
+                    "baseImage" : "/interface/crafting/sortlegendary.png",
+                    "baseImageChecked" : "/interface/crafting/sortlegendaryselected.png",
+                    "data" : {
+                        "rarity" : [ "legendary" ]
+                    }
+                },
+                {
+                    "position" : [ 186, 70 ],
+                    "baseImage" : "/interface/crafting/sortessential.png",
+                    "baseImageChecked" : "/interface/crafting/sortessentialselected.png",
+                    "data" : {
+                        "rarity" : [ "essential" ]
+                    }
+                }
+            ]
+        },
+
+        // ----
+        // Tabs
+        // ----
+
+        { "op" : "replace", "path" : "/paneLayout/categories/toggleMode", "value" : true },
+        { "op" : "replace", "path" : "/paneLayout/categories/buttons", "value" : [
+                {
+                    "selected" : true,
+                    "position" : [ 3, 206 ],
+                    "baseImage" : "/interface/crafting/vuirUnselectedTab.png",
+                    "baseImageChecked" : "/interface/crafting/vuirSelectedTab.png",
+                    "data" : {
+                        "filter" : [ ]
+                    }
+                }
+            ]
+        },
+
+        { "op" : "add", "path" : "/paneLayout/lblTabAll", "value" : {
+                "type" : "image",
+                "file" : "/interface/crafting/tabicon_all.png",
+                "position" : [ 3, 206 ],
+                "zlevel" : 3
+            } 
+        },
+
+        { "op" : "add", "path" : "/modTab", "value" : [ ] }
+    ]
+]

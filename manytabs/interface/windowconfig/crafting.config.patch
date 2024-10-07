@@ -1,0 +1,305 @@
+[
+    [
+        // For testing tabs 
+        { "op" : "test", "path" : "/allTheTabs", "value" : true },
+        
+        { "op" : "add", "path" : "/modTab/-", "value" : { "file" : "/assetmissing.png", "filter" : [ ] } },
+        { "op" : "add", "path" : "/modTab/-", "value" : { "file" : "/assetmissing.png", "filter" : [ ] } },
+        { "op" : "add", "path" : "/modTab/-", "value" : { "file" : "/assetmissing.png", "filter" : [ ] } },
+        { "op" : "add", "path" : "/modTab/-", "value" : { "file" : "/assetmissing.png", "filter" : [ ] } },
+        { "op" : "add", "path" : "/modTab/-", "value" : { "file" : "/assetmissing.png", "filter" : [ ] } },
+        { "op" : "add", "path" : "/modTab/-", "value" : { "file" : "/assetmissing.png", "filter" : [ ] } },
+        { "op" : "add", "path" : "/modTab/-", "value" : { "file" : "/assetmissing.png", "filter" : [ ] } },
+        { "op" : "add", "path" : "/modTab/-", "value" : { "file" : "/assetmissing.png", "filter" : [ ] } },
+        { "op" : "add", "path" : "/modTab/-", "value" : { "file" : "/assetmissing.png", "filter" : [ ] } },
+        { "op" : "add", "path" : "/modTab/-", "value" : { "file" : "/assetmissing.png", "filter" : [ ] } },
+        { "op" : "add", "path" : "/modTab/-", "value" : { "file" : "/assetmissing.png", "filter" : [ ] } }
+    ],
+    [
+        // Modded tab #1
+        { "op" : "test", "path" : "/modTab/0" },
+
+        { "op" : "add" , "path" : "/paneLayout/categories/buttons/-", "value" : {
+                "position" : [ 4, 250 ],
+                "baseImage" : "/interface/crafting/vuirUnselectedTab.png",
+                "baseImageChecked" : "/interface/crafting/vuirSelectedTab.png",
+                "data" : {
+                    "filter" : [  ]
+                }
+            }
+        },
+        { "op" : "add", "path" : "/paneLayout/lblTab1", "value" : {
+                "type" : "image",
+                "file" : "/assetmissing.png",
+                "position" : [ 4, 250 ],
+                "zlevel" : 3
+            }
+        },
+
+        { "op" : "move", "from" : "/modTab/0/file", "path" : "/paneLayout/lblTab1/file" },
+        { "op" : "move", "from" : "/modTab/0/filter", "path" : "/paneLayout/categories/buttons/1/data/filter" },
+
+        { "op" : "remove", "path" : "/modTab/0" }
+    ],
+    [
+        // Modded tab #2
+        { "op" : "test", "path" : "/modTab/0" },
+
+        { "op" : "add" , "path" : "/paneLayout/categories/buttons/-", "value" : {
+                "position" : [ 4, 232 ],
+                "baseImage" : "/interface/crafting/vuirUnselectedTab.png",
+                "baseImageChecked" : "/interface/crafting/vuirSelectedTab.png",
+                "data" : {
+                    "filter" : [  ]
+                }
+            }
+        },
+        { "op" : "add", "path" : "/paneLayout/lblTab1", "value" : {
+                "type" : "image",
+                "file" : "/assetmissing.png",
+                "position" : [ 4, 232 ],
+                "zlevel" : 3
+            }
+        },
+
+        { "op" : "move", "from" : "/modTab/0/file", "path" : "/paneLayout/lblTab1/file" },
+        { "op" : "move", "from" : "/modTab/0/filter", "path" : "/paneLayout/categories/buttons/1/data/filter" },
+
+        { "op" : "remove", "path" : "/modTab/0" }
+    ],
+    [
+        // Modded tab #3
+        { "op" : "test", "path" : "/modTab/0" },
+
+        { "op" : "add" , "path" : "/paneLayout/categories/buttons/-", "value" : {
+                "position" : [ 4, 214 ],
+                "baseImage" : "/interface/crafting/vuirUnselectedTab.png",
+                "baseImageChecked" : "/interface/crafting/vuirSelectedTab.png",
+                "data" : {
+                    "filter" : [  ]
+                }
+            }
+        },
+        { "op" : "add", "path" : "/paneLayout/lblTab1", "value" : {
+                "type" : "image",
+                "file" : "/assetmissing.png",
+                "position" : [ 4, 214 ],
+                "zlevel" : 3
+            }
+        },
+
+        { "op" : "move", "from" : "/modTab/0/file", "path" : "/paneLayout/lblTab1/file" },
+        { "op" : "move", "from" : "/modTab/0/filter", "path" : "/paneLayout/categories/buttons/1/data/filter" },
+
+        { "op" : "remove", "path" : "/modTab/0" }
+    ],
+    [
+        // Modded tab #4
+        { "op" : "test", "path" : "/modTab/0" },
+
+        { "op" : "add" , "path" : "/paneLayout/categories/buttons/-", "value" : {
+                "position" : [ 4, 196 ],
+                "baseImage" : "/interface/crafting/vuirUnselectedTab.png",
+                "baseImageChecked" : "/interface/crafting/vuirSelectedTab.png",
+                "data" : {
+                    "filter" : [  ]
+                }
+            }
+        },
+        { "op" : "add", "path" : "/paneLayout/lblTab1", "value" : {
+                "type" : "image",
+                "file" : "/assetmissing.png",
+                "position" : [ 4, 196 ],
+                "zlevel" : 3
+            }
+        },
+
+        { "op" : "move", "from" : "/modTab/0/file", "path" : "/paneLayout/lblTab1/file" },
+        { "op" : "move", "from" : "/modTab/0/filter", "path" : "/paneLayout/categories/buttons/1/data/filter" },
+
+        { "op" : "remove", "path" : "/modTab/0" }
+    ],
+    [
+        // Modded tab #5
+        { "op" : "test", "path" : "/modTab/0" },
+
+        { "op" : "add" , "path" : "/paneLayout/categories/buttons/-", "value" : {
+                "position" : [ 4, 178 ],
+                "baseImage" : "/interface/crafting/vuirUnselectedTab.png",
+                "baseImageChecked" : "/interface/crafting/vuirSelectedTab.png",
+                "data" : {
+                    "filter" : [  ]
+                }
+            }
+        },
+        { "op" : "add", "path" : "/paneLayout/lblTab1", "value" : {
+                "type" : "image",
+                "file" : "/assetmissing.png",
+                "position" : [ 4, 178 ],
+                "zlevel" : 3
+            }
+        },
+
+        { "op" : "move", "from" : "/modTab/0/file", "path" : "/paneLayout/lblTab1/file" },
+        { "op" : "move", "from" : "/modTab/0/filter", "path" : "/paneLayout/categories/buttons/1/data/filter" },
+
+        { "op" : "remove", "path" : "/modTab/0" }
+    ],
+    [
+        // Modded tab #6
+        { "op" : "test", "path" : "/modTab/0" },
+
+        { "op" : "add" , "path" : "/paneLayout/categories/buttons/-", "value" : {
+                "position" : [ 4, 160 ],
+                "baseImage" : "/interface/crafting/vuirUnselectedTab.png",
+                "baseImageChecked" : "/interface/crafting/vuirSelectedTab.png",
+                "data" : {
+                    "filter" : [  ]
+                }
+            }
+        },
+        { "op" : "add", "path" : "/paneLayout/lblTab1", "value" : {
+                "type" : "image",
+                "file" : "/assetmissing.png",
+                "position" : [ 4, 160 ],
+                "zlevel" : 3
+            }
+        },
+
+        { "op" : "move", "from" : "/modTab/0/file", "path" : "/paneLayout/lblTab1/file" },
+        { "op" : "move", "from" : "/modTab/0/filter", "path" : "/paneLayout/categories/buttons/1/data/filter" },
+
+        { "op" : "remove", "path" : "/modTab/0" }
+    ],
+    [
+        // Modded tab #7
+        { "op" : "test", "path" : "/modTab/0" },
+
+        { "op" : "add" , "path" : "/paneLayout/categories/buttons/-", "value" : {
+                "position" : [ 4, 142 ],
+                "baseImage" : "/interface/crafting/vuirUnselectedTab.png",
+                "baseImageChecked" : "/interface/crafting/vuirSelectedTab.png",
+                "data" : {
+                    "filter" : [  ]
+                }
+            }
+        },
+        { "op" : "add", "path" : "/paneLayout/lblTab1", "value" : {
+                "type" : "image",
+                "file" : "/assetmissing.png",
+                "position" : [ 4, 142 ],
+                "zlevel" : 3
+            }
+        },
+
+        { "op" : "move", "from" : "/modTab/0/file", "path" : "/paneLayout/lblTab1/file" },
+        { "op" : "move", "from" : "/modTab/0/filter", "path" : "/paneLayout/categories/buttons/1/data/filter" },
+
+        { "op" : "remove", "path" : "/modTab/0" }
+    ],
+    [
+        // Modded tab #8
+        { "op" : "test", "path" : "/modTab/0" },
+
+        { "op" : "add" , "path" : "/paneLayout/categories/buttons/-", "value" : {
+                "position" : [ 4, 124 ],
+                "baseImage" : "/interface/crafting/vuirUnselectedTab.png",
+                "baseImageChecked" : "/interface/crafting/vuirSelectedTab.png",
+                "data" : {
+                    "filter" : [  ]
+                }
+            }
+        },
+        { "op" : "add", "path" : "/paneLayout/lblTab1", "value" : {
+                "type" : "image",
+                "file" : "/assetmissing.png",
+                "position" : [ 4, 124 ],
+                "zlevel" : 3
+            }
+        },
+
+        { "op" : "move", "from" : "/modTab/0/file", "path" : "/paneLayout/lblTab1/file" },
+        { "op" : "move", "from" : "/modTab/0/filter", "path" : "/paneLayout/categories/buttons/1/data/filter" },
+
+        { "op" : "remove", "path" : "/modTab/0" }
+    ],
+    [
+        // Modded tab #9
+        { "op" : "test", "path" : "/modTab/0" },
+
+        { "op" : "add" , "path" : "/paneLayout/categories/buttons/-", "value" : {
+                "position" : [ 4, 106 ],
+                "baseImage" : "/interface/crafting/vuirUnselectedTab.png",
+                "baseImageChecked" : "/interface/crafting/vuirSelectedTab.png",
+                "data" : {
+                    "filter" : [  ]
+                }
+            }
+        },
+        { "op" : "add", "path" : "/paneLayout/lblTab1", "value" : {
+                "type" : "image",
+                "file" : "/assetmissing.png",
+                "position" : [ 4, 106 ],
+                "zlevel" : 3
+            }
+        },
+
+        { "op" : "move", "from" : "/modTab/0/file", "path" : "/paneLayout/lblTab1/file" },
+        { "op" : "move", "from" : "/modTab/0/filter", "path" : "/paneLayout/categories/buttons/1/data/filter" },
+
+        { "op" : "remove", "path" : "/modTab/0" }
+    ]
+    ,
+    [
+        // Modded tab #10
+        { "op" : "test", "path" : "/modTab/0" },
+
+        { "op" : "add" , "path" : "/paneLayout/categories/buttons/-", "value" : {
+                "position" : [ 4, 88 ],
+                "baseImage" : "/interface/crafting/vuirUnselectedTab.png",
+                "baseImageChecked" : "/interface/crafting/vuirSelectedTab.png",
+                "data" : {
+                    "filter" : [  ]
+                }
+            }
+        },
+        { "op" : "add", "path" : "/paneLayout/lblTab1", "value" : {
+                "type" : "image",
+                "file" : "/assetmissing.png",
+                "position" : [ 4, 88 ],
+                "zlevel" : 3
+            }
+        },
+
+        { "op" : "move", "from" : "/modTab/0/file", "path" : "/paneLayout/lblTab1/file" },
+        { "op" : "move", "from" : "/modTab/0/filter", "path" : "/paneLayout/categories/buttons/1/data/filter" },
+
+        { "op" : "remove", "path" : "/modTab/0" }
+    ],
+    [
+        // Modded tab #11
+        { "op" : "test", "path" : "/modTab/0" },
+
+        { "op" : "add" , "path" : "/paneLayout/categories/buttons/-", "value" : {
+                "position" : [ 4, 70 ],
+                "baseImage" : "/interface/crafting/vuirUnselectedTab.png",
+                "baseImageChecked" : "/interface/crafting/vuirSelectedTab.png",
+                "data" : {
+                    "filter" : [  ]
+                }
+            }
+        },
+        { "op" : "add", "path" : "/paneLayout/lblTab1", "value" : {
+                "type" : "image",
+                "file" : "/assetmissing.png",
+                "position" : [ 4, 70 ],
+                "zlevel" : 3
+            }
+        },
+
+        { "op" : "move", "from" : "/modTab/0/file", "path" : "/paneLayout/lblTab1/file" },
+        { "op" : "move", "from" : "/modTab/0/filter", "path" : "/paneLayout/categories/buttons/1/data/filter" },
+
+        { "op" : "remove", "path" : "/modTab/0" }
+    ]
+]

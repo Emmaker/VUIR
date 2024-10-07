@@ -8,7 +8,7 @@
 -- To reference any ScrollArea children widgets in Lua scripts (widget.* table) use the following format: <ScrollArea name>.<Children widget name>.
 
 local print, warn, error, assertwarn, assert, tostring; -- Specify these as locals
-require("/scripts/xcustomcodex/LoggingOverride.lua") -- tl;dr I can use print, warn, error, assert, and assertwarn
+require "/scripts/xcustomcodex/LoggingOverride.lua" -- tl;dr I can use print, warn, error, assert, and assertwarn
 
 ---------------------------
 ------ TEMPLATE DATA ------
@@ -443,4 +443,4 @@ end
 
 
 -- Yes, this goes down here. Don't move it or you will break it.
-require("/scripts/xcustomcodex/InitializationUtility.lua")
+require "/scripts/xcustomcodex/InitializationUtility.lua"

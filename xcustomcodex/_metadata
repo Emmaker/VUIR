@@ -1,10 +1,10 @@
 {
-  "author" : "Xan the Dragon, Emmaker",
+  "author" : "Emmaker, Xan the Dragon",
   "description" : "A fork of [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2000211337]XCustomCodex[/url] that has been turned into an addon for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3341486314]Vanilla User Interface Remastered[/url]. This addon [b]does not[/b] function independently, and [b]does[/b] require VUIR.\n\nXCustomCodex replaces the vanilla codex with a larger, much more legible and flexible codex. Featuring unlimited reading space, automatic support for all race mods without needing a patch, and easy use. The new codex can be accessed where the vanilla codex used to be in the main bar, and the vanilla codex can still be accessed with keybinds if needed.\n\nOriginal mod was by Xan The Dragon, and licensed under the MIT License. As such, this fork falls under that same [url=https://github.com/Emmaker/VUIR/blob/master/xcustomcodex/LICENSE]license[/url].",
   "friendlyName" : "VUIR - XCustomCodex Addon",
   "link" : "steam://url/CommunityFilePage/3344902245",
   "name" : "VUIRxcustomcodex",
-  "requires" : ["vanillaUIremastered"],
+  "requires" : [ "vanillaUIremastered" ],
   "steamContentId" : "3344902245",
   "tags" : "User Interface",
   "version" : "6.9"

@@ -22,7 +22,7 @@
         { "op" : "replace", "path" : "/mainBar/collections/poly", "value" : [ [ 0, 0 ], [ 0, 0 ], [ 0, 0 ], [ 0, 0 ] ] },
 
         { "op" : "replace", "path" : "/mainBar/mmUpgrade/pos", "value" : [ 0, 66 ] },
-        { "op" : "replace", "path" : "/mainBar/mmUpgrade/poly", "value" : [ [ [ 0, 66 ], [ 0, 83 ], [ 17, 83 ], [ 17, 66 ] ] ] },
+        { "op" : "replace", "path" : "/mainBar/mmUpgrade/poly", "value" : [ [ 0, 66 ], [ 0, 83 ], [ 17, 83 ], [ 17, 66 ] ] },
 
         { "op" : "replace", "path" : "/mainBar/deploy/pos", "value" : [ 0, 40 ] },
         { "op" : "replace", "path" : "/mainBar/deploy/poly", "value" : [ [ 0, 40 ], [ 0, 57 ], [ 17, 57 ], [ 17, 40 ] ] },

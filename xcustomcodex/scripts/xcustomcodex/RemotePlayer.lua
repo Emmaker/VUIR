@@ -28,4 +28,4 @@ function postinit()
 end
 
 -- Yes, this goes down here. Don't move it or you will cause postinit() to never run.
-require("/scripts/xcustomcodex/InitializationUtility.lua")
+require "/scripts/xcustomcodex/InitializationUtility.lua"

@@ -82,7 +82,7 @@
         { "op" : "replace", "path" : "/paneLayout/categories/buttons", "value" : [
                 {
                     "selected" : true,
-                    "position" : [ 3, 206 ],
+                    "position" : [ 4, 287 ],
                     "baseImage" : "/interface/crafting/vuirUnselectedTab.png",
                     "baseImageChecked" : "/interface/crafting/vuirSelectedTab.png",
                     "data" : {

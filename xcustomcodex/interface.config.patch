@@ -1,0 +1,15 @@
+[
+    { "op" : "replace", "path" : "/mainBar/collections/base", "value" : "/interface/codex.png" },
+    { "op" : "replace", "path" : "/mainBar/collections/hover", "value" : "/interface/codexhover.png" },
+    { "op" : "replace", "path" : "/mainBar/collections/open", "value" : "/interface/codexOpen.png" },
+    { "op" : "replace", "path" : "/mainBar/collections/openHover", "value" : "/interface/codexhoverOpen.png" },
+    { "op" : "replace", "path" : "/mainBar/collections/pos", "value" : [ 0, 92 ] },
+    { "op" : "replace", "path" : "/mainBar/collections/poly", "value" : [ [ 0, 92 ], [ 0, 109 ], [ 17, 109 ], [ 17, 92 ] ] },
+
+    { "op" : "replace", "path" : "/mainBar/codex/base", "value" : "/interface/mainbar.png" },
+    { "op" : "replace", "path" : "/mainBar/codex/open", "value" : "/interface/mainbar.png" },
+    { "op" : "replace", "path" : "/mainBar/codex/pos", "value" : [ 12, 26 ] },
+    { "op" : "replace", "path" : "/mainBar/codex/poly", "value" : [ [ 0, 0 ], [ 0, 0 ], [ 0, 0 ], [ 0, 0 ] ] },
+
+    { "op" : "replace", "path" : "/cursorTooltip/collectionsText", "value" : "High-Fidelity Codex" }
+]

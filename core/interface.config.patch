@@ -33,7 +33,6 @@
     [
         { "op" : "test", "path" : "/cursorTooltip/mmUpgradeText", "value" : "Quickbar" },
 
-        { "op" : "replace", "path" : "/mainBar/mmUpgrade/pos", "value" : [ -2, 66 ] },
-        { "op" : "replace", "path" : "/mainBar/mmUpgrade/poly", "value" : [ [ -2, 66 ], [ -2, 83 ], [ 17, 83 ], [ 17, 66 ] ] }
+        { "op" : "replace", "path" : "/mainBar/mmUpgrade/pos", "value" : [ -2, 66 ] }
     ]
 ]

@@ -1,0 +1,9 @@
+{
+  "author" : "Xan the Dragon, Emmaker",
+  "description" : "Replaces the stock codex with a custom, much better codex. This is designed to work with a custom codex storage system. It does not hook into player discoveries, but does listen to whenever you use a codex item.\n\nhttps://github.com/XanTheDragon/XCustomCodex\n\nThis supports all vanilla codex entries out of the box. It also has stock support for custom races -- no need to update the race mod either!\n\nTo view the new codex, install Quickbar Mini (it adds a quickbar button) or use /admin followed by /spawnitem xcodexlogbook and use this item. An update to add this to bookshelves is planned, if this is possible.",
+  "friendlyName" : "VUIR - XCustomCodex Addon",
+  "requires" : [ "vanillaUIremastered" ],
+  "name" : "VUIRxcustomcodex",
+  "tags" : "User Interface",
+  "version" : "6.9"
+}

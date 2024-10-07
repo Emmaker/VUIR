@@ -1,0 +1,3 @@
+[
+    { "op" : "replace", "path" : "/items/vuir:collections/action/1", "value" : "/interface/scripted/collections/collectionsgui.original.config" }
+]

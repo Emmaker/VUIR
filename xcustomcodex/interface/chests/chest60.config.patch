@@ -1,0 +1,28 @@
+[
+	[
+		{ "op" : "test", "path" : "/scripts", "inverse" : true },
+
+		{ "op" : "add", "path" : "/scripts", "value" : [ ] }
+	],
+	[
+		{ "op" : "test", "path" : "/scriptWidgetCallbacks", "inverse" : true },
+
+		{ "op" : "add", "path" : "/scriptWidgetCallbacks", "value" : [ ] }
+	],
+	[
+		{ "op" : "replace", "path" : "/gui/clear/position/0", "value" : 22 },
+		{ "op" : "add", "path" : "/gui/openCodex", "value" : {
+				"type" : "button",
+				"base" : "/interface/button.png",
+				"hover" : "/interface/buttonhover.png",
+				"press" : "/interface/buttonhover.png",
+				"caption" : "Read all",
+				"position" : [83, 26],
+				"callback" : "CodexButtonClicked"
+			}
+		},
+
+		{ "op" : "add", "path" : "/scripts/-", "value" : "/scripts/xcustomcodex/ContainerControl.lua" },
+		{ "op" : "add", "path" : "/scriptWidgetCallbacks/-", "value" : "CodexButtonClicked" }
+	]
+]

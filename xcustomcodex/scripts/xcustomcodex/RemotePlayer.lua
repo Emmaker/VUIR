@@ -1,8 +1,8 @@
 -- PlayerReplicator
 -- Replicates ALL player functions and exposes them as a message handler.
 
-require("/scripts/messageutil.lua")
-require("/scripts/xcustomcodex/LearnCodexRoutine.lua") -- Defines LearnCodex(string name)
+require "/scripts/messageutil.lua"
+require "/scripts/xcustomcodex/LearnCodexRoutine.lua" -- Defines LearnCodex(string name)
 
 local OldInit = init
 

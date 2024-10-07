@@ -1,6 +1,6 @@
 -- Written by Xan the Dragon // Eti the Spirit [RBX 18406183]
 -- Code to learn codex entries.
-require( "/scripts/xcustomcodex/LoggingOverride.lua" ) -- Very nice script!
+require "/scripts/xcustomcodex/LoggingOverride.lua" -- Very nice script!
 local HasLoggingOverride = false
 local print, warn, error, assertwarn, assert, tostring;
 

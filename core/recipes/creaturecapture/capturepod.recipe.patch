@@ -1,0 +1,5 @@
+[   
+    { "op" : "test", "path" : "/groups/1", "value" :  "all"  },
+    
+    { "op" : "replace", "path" : "/groups/1", "value" :  "vanilla" }
+]

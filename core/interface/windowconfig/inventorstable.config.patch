@@ -16,7 +16,7 @@
     { "op" : "replace", "path" : "/paneLayout/lblProducttitle/position", "value" : [ 292, 318 ] },
 
     { "op" : "replace", "path" : "/paneLayout/spinCount/position", "value" : [ 247, 83 ] },
-    { "op" : "replace", "path" : "/paneLayout/tbSpinCount/position", "value" : [ 259, 83 ] },
+    { "op" : "replace", "path" : "/paneLayout/tbSpinCount/position", "value" : [ 257, 83 ] },
     { "op" : "replace", "path" : "/paneLayout/imgAmountInput/position", "value" : [ 253, 82 ] },
     { "op" : "replace", "path" : "/paneLayout/btnCraft/position", "value" : [ 298, 80 ] },
     { "op" : "replace", "path" : "/paneLayout/btnStopCraft/position", "value" : [ 298, 80 ] },
